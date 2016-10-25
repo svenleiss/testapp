@@ -1,0 +1,37 @@
+// Material Design Lite
+.mdl-textfield {
+  width: inherit;
+}
+
+.mdl-textfield__input, .mdl-textfield__label {
+  font-size: 18px;
+}
+
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label,
+.mdl-textfield--floating-label.is-dirty .mdl-textfield__label,
+.mdl-textfield--floating-label.has-placeholder .mdl-textfield__label > label {
+  font-size: 14px;
+}
+
+.mdl-slider__container, .mdl-slider__ie-container {
+  width: 100%;
+}
+
+.mdl-slider {
+  margin: 0;
+  width: 100%;
+}
+
+.mdl-slider__background-flex {
+  margin: 0;
+  width: 100%;
+}
+
+.force-visibility-for-IE {
+  visibility: visible !important;
+}
+
+textarea {
+  resize: none;
+  overflow: hidden;
+}

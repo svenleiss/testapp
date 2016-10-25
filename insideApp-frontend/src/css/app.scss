@@ -1,0 +1,59 @@
+$header-height: 50px;
+
+// http://bourbon.io/ for compatibility across browsers
+// All files in bourbon directory, uncomment needed components
+@import "bourbon/bourbon";
+
+@import 'base/mdl_variables';
+@import "material-design-lite";
+@import "base/icons";
+@import 'base/reset';
+@import 'base/spacing';
+@import 'base/layout';
+@import 'base/colors';
+@import 'base/typography';
+@import 'base/links';
+@import "overrides";
+@import 'ui_elements/buttons';
+@import 'ui_elements/menu';
+@import 'ui_elements/navigation';
+@import 'ui_elements/sections';
+@import 'ui_elements/tabs';
+@import 'ui_elements/search';
+@import 'ui_elements/switches';
+@import 'ui_elements/spinners';
+@import 'ui_elements/printout';
+@import 'ui_elements/slider';
+@import 'ui_elements/videos';
+@import "overrides_orderExtension";
+
+html {
+  // Reserves the space for scrollbar, regardless of the need for it.
+  overflow-y: scroll;
+}
+
+html, body {
+  height: 100%;
+  font-family: VWText-Regular, sans-serif;
+  background-color: #f5f5f5;
+}
+
+#header {
+  background-color: white;
+  height: $header-height;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+#navigation-bar {
+  height: $header-height;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+#content {
+  padding-top: $header-height;
+}

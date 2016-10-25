@@ -1,0 +1,82 @@
+// Don't change font sizes without talking to Anna
+.t1 {
+  font-size: 30px;
+}
+
+.t2 {
+  font-size: 24px;
+}
+
+.t3 {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.t4 {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.t5 {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.t6 {
+  font-size: 12px;
+}
+
+@font-face {
+  font-family: "VWHead-Bold";
+  src: url("../../assets/fonts/VWHead-Bold.ttf");
+}
+
+.tf-head-bold {
+  font-family: VWHead-Bold, sans-serif;
+}
+
+@font-face {
+  font-family: "VWHead-Regular";
+  src: url("../../assets/fonts/VWHead-Regular.ttf");
+}
+
+.tf-head-regular {
+  font-family: VWHead-Regular, sans-serif;
+}
+
+@font-face {
+  font-family: "VWText-Bold";
+  src: url("../../assets/fonts/VWText-Bold.ttf");
+}
+
+.tf-text-bold {
+  font-family: VWText-Bold, sans-serif;
+}
+
+@font-face {
+  font-family: "VWText-Regular";
+  src: url("../../assets/fonts/VWText-Regular.ttf");
+}
+
+.tf-text-regular {
+  font-family: VWText-Regular, sans-serif;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.truncated {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 1px;
+}

@@ -1,0 +1,18 @@
+.ts-spinner {
+  padding-top: 100px;
+
+  > div {
+    @extend .mdl-spinner;
+    @extend .mdl-spinner--single-color;
+    @extend .is-active;
+  }
+}
+
+.ts-spinner-sm {
+  @extend .mdl-spinner;
+  @extend .mdl-spinner--single-color;
+  @extend .is-active;
+
+  width: 18px;
+  height: 18px;
+}

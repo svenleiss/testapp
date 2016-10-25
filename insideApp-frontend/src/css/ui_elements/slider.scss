@@ -1,0 +1,36 @@
+@mixin thumb() {
+  width: 24px !important;
+  height: 24px !important;
+  box-shadow: inset 0 0 0 2em map_get($colors, "cerulean");
+  border: none !important;
+  transform: scale(1) !important;
+
+}
+
+@mixin active-thumb() {
+  transform: scale(1) !important;
+}
+
+&::-webkit-slider-thumb {
+  @include thumb();
+}
+
+&:active::-webkit-slider-thumb {
+  @include active-thumb();
+}
+
+&::-moz-range-thumb {
+  @include thumb();
+}
+
+&:active::-moz-range-thumb {
+  @include active-thumb();
+}
+
+&::-ms-thumb {
+  @include thumb();
+}
+
+&:active::-ms-thumb {
+  @include active-thumb();
+}

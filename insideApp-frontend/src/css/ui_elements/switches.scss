@@ -1,0 +1,27 @@
+input[type='checkbox'] {
+  opacity: 0;
+  float: left;
+  width: 0;
+  max-width: 0;
+  margin: 0;
+}
+
+input[type='checkbox'] + label {
+  margin: 0;
+  clear: none;
+  padding: 5px 0 4px 25px;
+  border: 0;
+  cursor: pointer;
+  background: url("../../assets/images/checkbox-unchecked.svg") left center no-repeat;
+}
+
+input[type='checkbox']:checked + label {
+  background-image: url("../../assets/images/checkbox-checked.svg");
+}
+
+.checklist-selection-column {
+  @extend .mlm;
+  @extend .text-center;
+
+  width: 80px;
+}

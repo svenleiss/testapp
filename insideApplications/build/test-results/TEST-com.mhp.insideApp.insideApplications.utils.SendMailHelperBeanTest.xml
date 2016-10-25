@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mhp.insideApp.insideApplications.utils.SendMailHelperBeanTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-10-22T16:34:13" hostname="Alexanders-MBP.fritz.box" time="0.282">
+  <properties/>
+  <testcase name="sendEmailFail" classname="com.mhp.insideApp.insideApplications.utils.SendMailHelperBeanTest" time="0.016"/>
+  <testcase name="sendEmail" classname="com.mhp.insideApp.insideApplications.utils.SendMailHelperBeanTest" time="0.264"/>
+  <system-out><![CDATA[18:34:13.954 [Test worker] DEBUG com.amazonaws.AmazonWebServiceClient - Internal logging succesfully configured to commons logger: true
+18:34:13.988 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'region' of type [null] on target object [com.mhp.insideApp.insideApplications.utils.SendMailHelperBean@64835d2a] or target class [class com.mhp.insideApp.insideApplications.utils.SendMailHelperBean] to value [eu-west-1]
+18:34:13.988 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'from' of type [null] on target object [com.mhp.insideApp.insideApplications.utils.SendMailHelperBean@64835d2a] or target class [class com.mhp.insideApp.insideApplications.utils.SendMailHelperBean] to value [mock@mock.com]
+18:34:13.988 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'subject' of type [null] on target object [com.mhp.insideApp.insideApplications.utils.SendMailHelperBean@64835d2a] or target class [class com.mhp.insideApp.insideApplications.utils.SendMailHelperBean] to value [Order Extension for {license-plate}]
+18:34:13.989 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'hostName' of type [null] on target object [com.mhp.insideApp.insideApplications.utils.SendMailHelperBean@64835d2a] or target class [class com.mhp.insideApp.insideApplications.utils.SendMailHelperBean] to value [localhost]
+18:34:13.989 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'portNumber' of type [null] on target object [com.mhp.insideApp.insideApplications.utils.SendMailHelperBean@64835d2a] or target class [class com.mhp.insideApp.insideApplications.utils.SendMailHelperBean] to value [8080]
+18:34:13.993 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'region' of type [null] on target object [com.mhp.insideApp.insideApplications.utils.SendMailHelperBean@239a33e6] or target class [class com.mhp.insideApp.insideApplications.utils.SendMailHelperBean] to value [eu-west-1]
+18:34:13.994 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'from' of type [null] on target object [com.mhp.insideApp.insideApplications.utils.SendMailHelperBean@239a33e6] or target class [class com.mhp.insideApp.insideApplications.utils.SendMailHelperBean] to value [mock@mock.com]
+18:34:13.994 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'subject' of type [null] on target object [com.mhp.insideApp.insideApplications.utils.SendMailHelperBean@239a33e6] or target class [class com.mhp.insideApp.insideApplications.utils.SendMailHelperBean] to value [Order Extension for {license-plate}]
+18:34:13.994 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'hostName' of type [null] on target object [com.mhp.insideApp.insideApplications.utils.SendMailHelperBean@239a33e6] or target class [class com.mhp.insideApp.insideApplications.utils.SendMailHelperBean] to value [localhost]
+18:34:13.994 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'portNumber' of type [null] on target object [com.mhp.insideApp.insideApplications.utils.SendMailHelperBean@239a33e6] or target class [class com.mhp.insideApp.insideApplications.utils.SendMailHelperBean] to value [8080]
+18:34:13.998 [Test worker] DEBUG com.mhp.insideApp.insideApplications.utils.SendMailHelperBean - Cust Email Id:-mock@mock.com  Verified Email Id is :- mock@mock.com
+18:34:13.998 [Test worker] INFO com.mhp.insideApp.insideApplications.utils.SendMailHelperBean - Attempting to send an email!
+18:34:14.256 [Test worker] INFO com.mhp.insideApp.insideApplications.utils.SendMailHelperBean - Email sent!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

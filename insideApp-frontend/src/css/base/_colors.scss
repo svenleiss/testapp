@@ -1,0 +1,73 @@
+$colors: (
+        'skygrey': #f3f5f6,
+        'grey': #808080,
+        'light-grey': #D0D0D0,
+        'cerulean': #0099da,
+        'charcoal-grey': #2f3538,
+        'silver': #bdc3c6,
+        'silver-two': #dee1e3,
+        'midnightgrey': #2f3538,
+        'brownishgrey': #5c5c5c,
+        'warmgrey': #808890,
+        'calmgrey': #dee1e3,
+        'notificationblue': #e5f5fb,
+        'lightblue': #f2fafd,
+        'white': #ffffff,
+        'yellow': #feeecc,
+        'orange': #faa000,
+        'red' : #f10707,
+        'none': transparent
+);
+
+@mixin color-classes($name, $color) {
+  .color-#{$name} {
+    color: $color;
+  }
+
+  .bt-#{$name} {
+    border-top: 1px solid $color;
+  }
+
+  .br-#{$name} {
+    border-right: 1px solid $color;
+  }
+
+  .bt3-#{$name} {
+    border-top: 3px solid $color;
+  }
+
+  .ba-#{$name} {
+    border: 1px solid $color;
+    border-collapse: collapse;
+  }
+
+  .bv-#{$name} {
+    border-bottom: 1px solid $color;
+    border-top: 1px solid $color;
+  }
+
+  .bb-#{$name} {
+    border-bottom: 1px solid $color;
+  }
+
+  .bb2-#{$name} {
+    border-bottom: 2px solid $color;
+  }
+
+  .color-bg-#{$name} {
+    background-color: $color;
+  }
+
+  .color-bg-light-#{$name} {
+    background-color: $color;
+    opacity: 0.5;
+  }
+}
+
+@each $name, $color in $colors {
+  @include color-classes($name, $color)
+}
+
+.hover-lightblue:hover {
+  background-color: map_get($colors, "lightblue");
+}

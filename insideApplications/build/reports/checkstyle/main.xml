@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.17">
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/common/Contract.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/common/Customer.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/common/UserRole.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/common/exceptions/DomainObjectNotFoundException.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/common/sources/CustomerService.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/common/usecases/CreateCustomer.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/common/usecases/UpdateCustomer.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/common/util/TimeProvider.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/insideApplications/CustomerMessage.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/insideApplications/Media.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/insideApplications/Order.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/insideApplications/OrderItem.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/insideApplications/media/TrailblazrMediaMiddleManagement.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/insideApplications/sources/MediaRepository.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/insideApplications/sources/OrderItemService.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/insideApplications/sources/OrderService.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/insideApplications/sources/TrailblazerClient.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/insideApplications/usecases/CreateOrder.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/insideApplications/usecases/CreateServiceAdvisorOrderItem.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/insideApplications/usecases/DeleteOrderItem.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/insideApplications/usecases/GetOrder.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/insideApplications/usecases/GetOrderById.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/insideApplications/usecases/SendOrder.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/insideApplications/usecases/UpdateOrder.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/insideApplications/usecases/UpdateOrderItem.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/main/java/com/mhp/insideApp/insideApplications/utils/SendMailHelperBean.java">
+</file>
+</checkstyle>

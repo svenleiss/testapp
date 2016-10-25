@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mhp.insideApp.persistence.converters.InstantAttributeConverterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-10-22T16:34:37" hostname="Alexanders-MBP.fritz.box" time="0.006">
+  <properties/>
+  <testcase name="testConvertFromDatabaseTime" classname="com.mhp.insideApp.persistence.converters.InstantAttributeConverterTest" time="0.006"/>
+  <testcase name="testConvertToDatabaseTime" classname="com.mhp.insideApp.persistence.converters.InstantAttributeConverterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

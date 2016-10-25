@@ -1,0 +1,46 @@
+.ts-menu {
+  @extend .t4;
+  @extend .plxs;
+  @extend .flr;
+  @extend .fac;
+  @extend .color-midnightgrey;
+
+  cursor: pointer;
+  min-width: 120px;
+  height: $header-height;
+
+  > div:first-child {
+    @extend .mls;
+  }
+
+}
+
+.ts-menu-list {
+  @extend .color-bg-white;
+  @extend .phs;
+  @extend .bt-calmgrey;
+  @extend .mdl-shadow--2dp;
+  position: absolute;
+  z-index: 6;
+}
+
+.ts-menu-item {
+  @extend .flr;
+  @extend .fac;
+  @extend .bt-calmgrey;
+
+  height: $header-height;
+  width: 100%;
+  cursor: pointer;
+
+  > div, a {
+    @extend .mhs;
+    @extend .color-midnightgrey;
+    @extend .t4;
+    width: 100%;
+  }
+}
+
+.ts-menu-item:first-child {
+  border-top: none;
+}

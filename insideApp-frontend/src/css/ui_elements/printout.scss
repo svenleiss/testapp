@@ -1,0 +1,44 @@
+
+
+.ts-print-section {
+  @extend .t3;
+  @extend .tf-text-bold;
+  margin-top: 20px;
+  padding-bottom: 2px;
+  border-bottom: 3px solid #0099da;
+}
+
+.ts-print-signature {
+  @extend .t6;
+  border-top: 2px solid #000;
+  padding-top: 5px;
+}
+
+.ts-print-summary {
+  @extend .t6;
+  @extend .tf-text-regular;
+  border-top: 1px dotted grey;
+  margin-top: 35px;
+  padding-top: 5px;
+}
+
+.ts-print-section-container {
+  padding-top: 15px;
+}
+
+.ts-print-summary-item {
+  @extend .t5;
+  padding-bottom: 15px;
+  line-height: 15px;
+}
+
+.ts-print-summary-item-body {
+  padding-top: 5px;
+}
+
+.ts-print-line-item {
+  @extend .t5;
+  width: 150px;
+  padding-bottom: 5px;
+  line-height: 15px;
+}

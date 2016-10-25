@@ -1,0 +1,29 @@
+.ts-tab {
+  @extend .tf-head-bold;
+  @extend .color-warmgrey;
+  @extend .pas;
+  @extend .mrm;
+
+  border-bottom: 5px solid map_get($colors, "white");
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.ts-tab-active {
+  color: map_get($colors, "charcoal-grey") !important;
+  border-bottom: 5px solid map_get($colors, "cerulean");
+}
+
+.ts-tab-badge {
+  @extend .mdl-badge;
+  @extend .mdl-badge--overlap;
+}
+
+.ts-tab-badge[data-badge]:after {
+  color:white;
+  background-color: map_get($colors, "cerulean");
+
+  top: 10px;
+  right: 0;
+}

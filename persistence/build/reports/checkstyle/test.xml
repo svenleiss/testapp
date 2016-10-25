@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.17">
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/test/java/com/mhp/insideApp/persistence/NullApplication.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/test/java/com/mhp/insideApp/persistence/api/StockCustomerServiceTest.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/test/java/com/mhp/insideApp/persistence/api/StockOrderItemServiceTest.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/test/java/com/mhp/insideApp/persistence/api/StockOrderServiceTest.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/test/java/com/mhp/insideApp/persistence/common/BaseRepositoryTest.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/test/java/com/mhp/insideApp/persistence/converters/InstantAttributeConverterTest.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/test/java/com/mhp/insideApp/persistence/lifters/CustomerLifterTest.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/test/java/com/mhp/insideApp/persistence/lifters/OrderLifterTest.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/test/java/com/mhp/insideApp/persistence/support/factories/Factories.java">
+</file>
+</checkstyle>

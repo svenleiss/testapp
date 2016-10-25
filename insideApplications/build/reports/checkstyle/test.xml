@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.17">
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/test/java/com/mhp/insideApp/TestConfiguration.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/test/java/com/mhp/insideApp/common/support/ReaderUtils.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/test/java/com/mhp/insideApp/common/support/factories/BasicFactory.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/test/java/com/mhp/insideApp/common/support/factories/CustomerFactory.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/test/java/com/mhp/insideApp/common/usescases/UpdateCustomerTest.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/test/java/com/mhp/insideApp/insideApplications/media/TrailblazrMediaMiddleManagementTest.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/test/java/com/mhp/insideApp/insideApplications/usecases/CreateOrderTest.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/test/java/com/mhp/insideApp/insideApplications/usecases/CreateServiceAdvisorOrderItemTest.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/test/java/com/mhp/insideApp/insideApplications/usecases/GetOrderByIdTest.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/test/java/com/mhp/insideApp/insideApplications/usecases/GetOrderTest.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/test/java/com/mhp/insideApp/insideApplications/usecases/SendOrderTest.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/test/java/com/mhp/insideApp/insideApplications/usecases/UpdateOrderItemTest.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/test/java/com/mhp/insideApp/insideApplications/utils/CreateMockOrderWithItemsTest.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/insideApplications/src/test/java/com/mhp/insideApp/insideApplications/utils/SendMailHelperBeanTest.java">
+</file>
+</checkstyle>

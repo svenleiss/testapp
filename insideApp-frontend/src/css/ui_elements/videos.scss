@@ -1,0 +1,12 @@
+.video_item_preview:before {
+  content: '';
+  position: absolute;
+  width: 250px;
+  height: 150px;
+  background: rgba(0,0,0,.4) url("../../assets/images/play.svg") center center no-repeat;
+}
+
+.videoSection {
+  width: 250px;
+  height: 150px;
+}

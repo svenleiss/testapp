@@ -1,0 +1,41 @@
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+}
+
+// will cause bootRun to fork the process since DevTools need an isolated application classloader to operate properly
+apply plugin: "java"
+apply plugin: "spring-boot"
+
+bootRun {
+  //jvmArgs = ['-Xdebug', '-Xrunjdwp:server=y,transport=dt_socket,address=4000,suspend=y']
+     addResources = true
+}
+
+task("copyFrontend", type: Copy) {
+    from project(":insideApp-frontend").buildDir
+    into "${project(":webapp").buildDir}/resources/main/static"
+}
+processResources.dependsOn "copyFrontend"
+
+dependencies {
+    compile project(":insideApp-frontend")
+    compile project(":insideApplications")
+    compile project(":persistence")
+
+    compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
+    compile("org.springframework.boot:spring-boot-starter-actuator:${springBootVersion}")
+    compile("org.springframework.boot:spring-boot-starter-security:${springBootVersion}")
+    compile("org.springframework.boot:spring-boot-devtools:${springBootVersion}")
+
+    compile("pl.allegro.tech.boot:handlebars-spring-boot-starter:${handlebarsStarterVersion}")
+    compile("com.github.jknack:handlebars-helpers:${handlebarsVersion}")
+
+    compile("com.amazonaws:aws-java-sdk-ses:${awsJavaSdkVersion}")
+    compile("com.amazonaws:aws-java-sdk-s3:${awsJavaSdkVersion}")
+
+    compile("org.springframework.boot:spring-boot-starter-websocket:${springBootVersion}")
+}

@@ -1,0 +1,31 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven { url "https://plugins.gradle.org/m2/" }
+    }
+
+    dependencies {
+        classpath "com.moowork.gradle:gradle-node-plugin:0.12"
+    }
+}
+
+apply plugin: 'com.moowork.node'
+
+node {
+    version = '6.2.2'
+    download = true
+}
+
+clean {
+    doLast {
+       exec { commandLine "rm", "-r", "-f", "node_modules" }
+ }
+}
+
+compileJava.dependsOn "npm_install"
+
+if(System.getenv('NODE_ENV') == "production") {
+    compileJava.dependsOn "npm_run-script_package"
+} else {
+    compileJava.dependsOn "npm_run-script_package-dev"
+}

@@ -1,0 +1,444 @@
+.full-width {
+  width: 100% !important;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.page-width {
+  max-width: 680px !important;
+  width: 100% !important;
+}
+
+.page-width-driver {
+  width: 50% !important;
+  margin: auto;
+  position: relative;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.pull-right {
+  float: right;
+}
+
+.flex {
+  @include flex(1);
+}
+
+.fw {
+  @include flex-wrap(wrap);
+}
+
+.flr {
+  @include display(flex);
+  @include flex-direction(row);
+}
+
+.flc {
+  @include display(flex);
+  @include flex-direction(column);
+}
+
+.fjs {
+  @include justify-content(flex-start);
+}
+
+.fje {
+  @include justify-content(flex-end);
+}
+
+.fjc {
+  @include justify-content(center);
+}
+
+.fjb {
+  @include justify-content(space-between);
+}
+
+.fja {
+  @include justify-content(space-around);
+}
+
+.fas {
+  @include align-items(flex-start);
+}
+
+.fae {
+  @include align-items(flex-end);
+}
+
+.fac {
+  @include align-items(center);
+}
+
+.fas {
+  @include align-items(stretch);
+}
+
+@media (max-width: 1360px) {
+  .page-width-driver {
+    width: 90% !important;
+  }
+  .cart-width {
+    left: calc(5% + 770px) !important;
+  }
+}
+
+.cart-width {
+  z-index: 0;
+
+  top: 0%;
+  width: 10%;
+  min-width: 280px;
+  min-height: 180px;
+  left: calc(25% + 770px);
+  position: fixed;
+  margin-top: 31px;
+
+  -webkit-transition: .25s right ease;
+  -moz-transition: .25s right ease;
+  -ms-transition: .25s right ease;
+  -o-transition: .25s right ease;
+  transition: .25s right ease;
+
+  background: white;
+  box-shadow: 0 0 5px #bdc3c6;
+
+}
+
+.cart-width-orderConfirmation {
+  @extend .cart-width;
+  min-height: 130px;
+}
+
+.cart-button-div-width-orderConfirmation {
+  display: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.cart-button-div-width {
+  position: relative;
+  bottom: 0;
+  height: 50px;
+  min-width: 280px;
+}
+
+.cart-details-div {
+  padding-left: 15px;
+  min-height: 130px;
+}
+
+.ts-placeholder-shoppingCart {
+  border-top: 1px solid #bdc3c6;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #bdc3c6;
+}
+
+.ts-placeholder-shoppingCart-hidden {
+  display: none;
+}
+
+.ts-placeholder-shoppingCart-label {
+  color: #bdc3c6;
+}
+
+.ts-placeholder-shoppingCart-TotalPrice-hidden {
+  display: none;
+  padding-top: 10px;
+  font-family: VWText-Bold;
+}
+
+.ts-placeholder-totalPrice-HeadLine {
+  border-bottom-width: 2px;
+  border-bottom-color: #0099DA;
+  border-bottom-style: solid;
+  width: 93%;
+  padding-top: 0px;
+}
+
+.ts-placeholder-shoppingCart-Items {
+  padding-top: 12px;
+  height: 40px;
+}
+
+.ts-placeholder-shoppingCart-Price-label {
+  font-family: VWHead-Bold, sans-serif;
+  word-wrap: break-word;
+  width: 128px;
+}
+
+.ts-placeholder-totalPrice-display {
+  padding-top: 2px;
+  padding-bottom: 10px;
+}
+
+.ts-placeholder-totalPrice-currencyCode {
+  padding-left: 20px;
+}
+
+.ts-accepted-shoppingCart-orderItem {
+  border-bottom: 1px solid #bdc3c6;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #bdc3c6;
+  width: 93%;
+  padding-top: 8px;
+}
+
+.ts-accepted-shoppingCart-orderItem-price {
+  text-align: right;
+  padding-right: 20px;
+  font-family: "VWText-Bold";
+}
+
+.ts-accepted-shoppingCart-orderItem-details {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.ts-accepted-shoppingCart-orderItem-details-total-price {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.ts-accepted-shoppingCart-orderItemName {
+  word-wrap: break-word;
+  width: 128px;
+}
+
+.action-section-accept-decline {
+  textAlign: right;
+  width: 105%;
+}
+
+.order-confrimation-toast-message {
+  font-family: "VWText-Bold" !important;
+  text-align: center;
+  font-size: 30px !important;
+  font-color: rgb (47, 53, 56);
+}
+
+.order-confrimation-error1-toast-message {
+  font-family: "VWText-Bold" !important;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 30px !important;
+  font-color: rgb (47, 53, 56);
+}
+
+.order-confrimation-error2-toast-message {
+  font-family: "VWText-Regular" !important;
+  text-align: center;
+  padding-top: 17px;
+  font-size: 16px !important;
+  font-color: rgb (47, 53, 56);
+}
+
+.order-confrimation-error3-toast-message {
+  font-family: "VWText-Regular" !important;
+  text-align: center;
+  font-size: 16px !important;
+  font-color: rgb (47, 53, 56);
+}
+
+.checkmark-style {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(0, 153, 218);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 22pt;
+  text-align: center;
+  line-height: 1.5;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 10px;
+}
+
+.attentionmark-style {
+  height: 35px;
+  width: 35px;
+  background-color: rgb(0, 153, 218);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 22pt;
+  text-align: center;
+  line-height: 1.5;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 10px;
+  margin-top: 83px;
+}
+
+.ts-icon-notification-header {
+  width: 30px !important;
+  height: 30px !important;
+  padding-right: 10px;
+}
+
+.currency-code {
+  padding-right: 5px;
+}
+
+.price-input-currency-span {
+  @extend .mdl-textfield__input;
+  align-self: center;
+  float: left;
+  min-width: 0% !important;
+  width: 40%;
+}
+
+.hiddenCustomerMessage{
+  display: none;
+}
+
+.order-item-detail{
+  @extend .full-width;
+  padding-left: 30px;
+}
+.menu_overlay {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  display: none;
+  transform: scaleX(-1);
+
+}
+
+/* Empty. Add your own CSS if you like */
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGMVNtom4QlEDNJaqqqzqdSs.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlNHq-FFgoDNV3GTKpHwuvtI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Source Sans Pro Semibold'), local('SourceSansPro-Semibold'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGCmgpmuQqK2I-L2S9cF65Ek.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGIqjGYJUyOXcBwUQbRaNH6c.woff) format('woff');
+}
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#biglogo {
+  /*background:url(../img/mhp_bildmarke.svg);*/
+  background:url(../img/mhp_logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 8em;
+}
+
+#smalllogo {
+  background:url(../img/mhp_bildmarke.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 2em;
+  height: 2em;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.pane {
+  /*background:url(../img/bg.png);*/
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.content {
+  padding: 50px;
+}
+
+.congrats {
+  padding: 20px;
+}
+
+.congrats .double-item {
+  height: 10em;
+}
+
+
+
+.insight h1 {
+  margin-top: 40px;
+
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 200;
+}
+
+.title h1 {
+  margin-top: 0px;
+  padding: 0px;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 200;
+}
+
+.login {
+  margin-top: 50px;
+
+
+}
+
+.form button, .form input {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.time {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.time:first-child{
+  margin-top: 0px;
+}
+
+.hotel {
+  background:url(../img/bellagio.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+  height: 10em;
+  width: 14em;
+
+}

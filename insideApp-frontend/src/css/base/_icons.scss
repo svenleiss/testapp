@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'insideApp';
+  src: url('../../assets/fonts/insideApp.eot');
+  src: url('../../assets/fonts/insideApp.eot#iefix') format('embedded-opentype'),
+       url('../../assets/fonts/insideApp.ttf') format('truetype'),
+       url('../../assets/fonts/insideApp.woff') format('woff'),
+       url('../../assets/fonts/insideApp.svg#insideApp') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ts-icon-"], [class*=" ts-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'insideApp' !important;
+  font-size: 1.2em;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ts-icon-hamburger:before {
+  content: "\e901";
+}
+
+.ts-icon-checkmark:before {
+  content: "\e90d";
+}
+
+.ts-icon-customer:before {
+  content: "\e902";
+}
+
+.ts-icon-car:before {
+  content: "\e903";
+}
+
+.ts-icon-carat-up:before {
+  content: "\e90a";
+}
+
+.ts-icon-carat-down:before {
+  content: "\e90b";
+}
+
+.ts-icon-notes:before {
+  content: "\e904";
+}
+
+.ts-icon-plus:before {
+  content: "\e90c";
+}
+
+.ts-icon-fuel-level:before {
+  content: "\e905";
+}
+
+.ts-icon-gauge:before {
+  content: "\e906";
+}
+
+.ts-icon-delete:before {
+  content: "\e907";
+}
+
+.ts-icon-export:before {
+  content: "\e908";
+}
+
+.ts-icon-print:before {
+  content: "\e900";
+}
+
+.ts-icon-calendar:before {
+  content: "\e909";
+}
+
+.ts-icon-notification {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+  align-self: center;
+  margin-right: 10px;
+  background: #FAAA00 url("../../assets/images/bell.svg") no-repeat center;
+}
+
+.ts-icon-error-notification {
+  width: 769px;
+  height: 339px;
+  border-radius: 50%;
+  align-self: center;
+  margin-right: 10px;
+  background: #0099DA url("../../assets/images/Attention-Icon.svg") no-repeat center;
+}
+
+.ts-icon-2x {
+  font-size: 1.7em;
+}
+
+.ts-icon-3x {
+  font-size: 2.2em;
+}

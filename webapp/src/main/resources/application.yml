@@ -1,0 +1,19 @@
+spring:
+  - application:
+    name: insideApp
+  - jpa:
+    show-sql: true
+
+insideApp:
+  - version: DEV
+
+spring.jackson.serialization.indent_output: true
+
+handlebars.cache: false
+
+multipart.maxFileSize: 20Mb
+multipart.maxRequestSize: 20Mb
+
+server:
+  - address: 0.0.0.0
+

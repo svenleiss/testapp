@@ -1,0 +1,281 @@
+.button-defaults {
+  height: 44px;
+  letter-spacing: 0.6px;
+  padding: 0px 30px;
+
+  > i, > img {
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+}
+
+.ts-button-primary {
+  @extend .button-defaults;
+
+  @extend .mdl-button;
+  @extend .tf-head-bold;
+  @extend .mdl-button--raised;
+  @extend .mdl-button--colored;
+
+  @extend .t5;
+  text-transform: none;
+  background: #0099da;
+  box-shadow:none !important;
+  border-width: 1px;
+  border-radius: 4px;
+  border-style: solid;
+}
+
+.ts-button-primary:hover, .ts-button-primary:active {
+  background: #0068da !important;
+  color: #ffffff !important;
+}
+
+.ts-button-secondary {
+  @extend .button-defaults;
+
+  @extend .mdl-button;
+  @extend .mdl-button--raised;
+  @extend .mdl-button--accent;
+
+  @extend .t5;
+  @extend .tf-head-bold;
+  text-transform: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dee1e3;
+  background: #ffffff;
+  color: #0099da;
+  box-shadow:none !important;
+}
+
+.ts-button-secondary:hover {
+  background: #0068da !important;
+  color: #ffffff !important;
+}
+
+.ts-button-tertiary {
+  @extend .button-defaults;
+
+  @extend .mdl-button;
+
+  @extend .t4;
+
+  text-transform: uppercase;
+}
+
+.ts-file-input {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  opacity: 0.001; // So feature tests can find the input
+  filter: alpha(opacity=0);
+}
+
+.ts-file-upload {
+  position: relative;
+  overflow: hidden;
+}
+
+.ts-button-pill {
+  border-radius: 78px;
+  padding: 5px 15px 5px 15px;
+  background: #0099da;
+}
+
+.ts-button-urgency {
+  @extend .mdl-button;
+
+
+  @extend .t5;
+  @extend .tf-text-regular;
+
+  text-transform: none;
+  border-radius: 100px;
+  height: 30px;
+  align-self: center;
+  text-align: center;
+  line-height: 30px;
+}
+
+.ts-button-urgency_not_urgent {
+  @extend .ts-button-urgency;
+  background: #dee1e3;
+  color: #808890;
+}
+
+.ts-button-urgency_not_urgent:hover {
+  background: #f3f5f6;
+  color: #808890;
+}
+
+.ts-button-urgency_urgent {
+  @extend .ts-button-urgency;
+  background: #0099da;
+  color: white;
+}
+
+.ts-button-urgency_urgent:hover {
+  background: #0068da;
+  color: white;
+}
+
+.ts-button-default {
+  background: white;
+  color: #0099da;
+  border-width: thin !important;
+  border-color: #808890 !important;
+}
+
+.ts-button-decline {
+  @extend .ts-button-secondary;
+  background: #bdc3c6!important;
+  color: rgba(47,53,56,0.5);
+  border-width: 1px;
+  border-style: solid;
+  border-color: #808890;
+  min-width: 125px;
+  height:42px;
+  border-radius: 4px;
+  margin-right: 7px;
+  margin-bottom: 10px;
+  margin-bottom: -6px;
+}
+
+.ts-button-decline:hover {
+  background: #0068da !important;
+  color: #ffffff !important;
+}
+
+
+.ts-button-accept {
+  @extend .ts-button-primary;
+  @extend .t5;
+  color: white;
+  min-width: 125px;
+  height:42px;
+  border-radius: 4px;
+  margin-right: 12px;
+  margin-bottom: 10px;
+  margin-bottom: -6px;
+}
+
+.ts-button-accept:hover{
+  background: #0068da !important;
+  color: #ffffff !important;
+}
+
+.view-cart-button {
+  @extend .mdl-button;
+  @extend .tf-text-regular;
+  @extend .t3;
+
+  position: relative;
+  min-width: 280px;
+  margin: 0 auto;
+  height: 50px;
+  background: #dee1e3 !important;
+  color: #808890 !important;
+  text-transform: none;
+}
+
+.view-cart-button-enabled:hover{
+  background: #0068da !important;
+  color: #ffffff !important;
+}
+
+.view-cart-button-disabled {
+  @extend .view-cart-button;
+}
+
+.view-cart-button-enabled {
+  @extend .view-cart-button;
+  background: #0099da !important;
+  color: #ffffff !important;
+  text-transform: none;
+}
+
+.ts-button-secondary-confirmation{
+  @extend .ts-button-secondary;
+  min-width: 125px;
+  height:42px;
+  border-radius: 4px;
+  margin-right: 12px;
+  margin-bottom: -6px;
+  position: inherit;
+}
+
+.ts-button-secondary-confirmation-decline{
+  @extend .ts-button-secondary-confirmation;
+  margin-right: 7px;
+
+}
+
+.ts-button-secondary-confirmation:hover{
+  background: #0068da;
+  color: #ffffff;
+  }
+
+.ts-mdl-slider__container, .ts-mdl-slider__ie-container {
+  width: 100%;
+}
+
+.back-button {
+
+  @extend .ts-button-secondary;
+  margin-bottom: 1px;
+  border-radius: 4px;
+}
+
+.order-extention-buttons-left-div {
+  width: 50%!important;
+  float: left;
+}
+
+.order-extention-buttons-right-div {
+  width: 50%!important;
+  float: right;
+}
+
+.order-extention-right-button {
+  @extend .ts-button-primary;
+  float:right;
+}
+
+.chevron::before {
+  border-style: solid;
+  border-width: 0.25em 0.25em 0 0;
+  content: '';
+  display: inline-block;
+  height: 0.45em;
+  left: 0.15em;
+  position: relative;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  transform: rotate(-45deg);
+  width: 0.45em;
+  vertical-align: middle;
+}
+
+.chevron.left:before {
+  left: 0.25em;
+  transform: rotate(-135deg);
+}
+
+.addNewItem{
+  @extend .ts-button-secondary;
+  background: #ffffff !important;
+  margin-top: 40px;
+  margin-left: 490px;
+  width: 190px;
+  height: 44px;
+}
+
+.addNewItemDetail{
+  @extend .ts-button-secondary;
+  float: right;
+  background: #ffffff !important;
+  margin-top: 40px;
+  width: 190px;
+  height: 44px;
+}

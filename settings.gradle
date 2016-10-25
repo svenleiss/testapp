@@ -1,0 +1,6 @@
+rootProject.name = 'InsideApp'
+
+include 'insideApplications'
+include 'persistence'
+include 'insideApp-frontend'
+include 'webapp'

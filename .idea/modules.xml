@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InsideApp.iml" filepath="$PROJECT_DIR$/.idea/modules/InsideApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insideApp-frontend/insideApp-frontend.iml" filepath="$PROJECT_DIR$/.idea/modules/insideApp-frontend/insideApp-frontend.iml" group="insideApp-frontend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insideApp-frontend/insideApp-frontend_main.iml" filepath="$PROJECT_DIR$/.idea/modules/insideApp-frontend/insideApp-frontend_main.iml" group="insideApp-frontend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insideApp-frontend/insideApp-frontend_test.iml" filepath="$PROJECT_DIR$/.idea/modules/insideApp-frontend/insideApp-frontend_test.iml" group="insideApp-frontend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insideApplications/insideApplications.iml" filepath="$PROJECT_DIR$/.idea/modules/insideApplications/insideApplications.iml" group="insideApplications" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insideApplications/insideApplications_main.iml" filepath="$PROJECT_DIR$/.idea/modules/insideApplications/insideApplications_main.iml" group="insideApplications" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insideApplications/insideApplications_test.iml" filepath="$PROJECT_DIR$/.idea/modules/insideApplications/insideApplications_test.iml" group="insideApplications" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence/persistence.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence/persistence.iml" group="persistence" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence/persistence_main.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence/persistence_main.iml" group="persistence" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence/persistence_test.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence/persistence_test.iml" group="persistence" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webapp/webapp.iml" filepath="$PROJECT_DIR$/.idea/modules/webapp/webapp.iml" group="webapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webapp/webapp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/webapp/webapp_main.iml" group="webapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webapp/webapp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/webapp/webapp_test.iml" group="webapp" />
+    </modules>
+  </component>
+</project>

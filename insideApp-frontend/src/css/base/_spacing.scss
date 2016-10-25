@@ -1,0 +1,52 @@
+$spacing-xsmall: 10px;
+$spacing-small: 15px;
+$spacing-medium: 30px;
+$spacing-large: 45px;
+$spacing-xlarge: 60px;
+
+$size-map: (
+  'n': 0px,
+  'xs': $spacing-xsmall,
+  's': $spacing-small,
+  'm': $spacing-medium,
+  'l': $spacing-large,
+  'xl': $spacing-xlarge,
+);
+
+@mixin spacing-classes($type-abbr, $type, $size-abbr, $size) {
+  .#{$type-abbr}a#{$size-abbr} {
+    #{$type}: $size;
+  }
+
+  .#{$type-abbr}h#{$size-abbr} {
+    #{$type}-left: $size;
+    #{$type}-right: $size;
+  }
+
+  .#{$type-abbr}v#{$size-abbr} {
+    #{$type}-top: $size;
+    #{$type}-bottom: $size;
+  }
+
+  .#{$type-abbr}l#{$size-abbr} {
+    #{$type}-left: $size;
+  }
+
+  .#{$type-abbr}r#{$size-abbr} {
+    #{$type}-right: $size;
+  }
+
+  .#{$type-abbr}t#{$size-abbr} {
+    #{$type}-top: $size;
+  }
+
+  .#{$type-abbr}b#{$size-abbr} {
+    #{$type}-bottom: $size;
+  }
+}
+
+@each $type-abbr, $type in ('m': 'margin', 'p': 'padding') {
+  @each $size-abbr, $size in $size-map {
+    @include spacing-classes($type-abbr, $type, $size-abbr, $size);
+  }
+}

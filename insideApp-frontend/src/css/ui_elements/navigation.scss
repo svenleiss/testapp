@@ -1,0 +1,24 @@
+.ts-nav {
+  @extend .flr;
+  @extend .fjc;
+  @extend .color-bg-warmgrey;
+  @extend .color-white;
+  @extend .mdl-shadow--2dp;
+}
+
+.ts-nav-item {
+  @extend .flr;
+  @extend .fjc;
+  @extend .fac;
+  border-bottom: 5px solid map_get($colors, "warmgrey");
+
+  cursor: pointer;
+
+  > i {
+    margin-top: 5px;
+  }
+}
+
+.ts-nav-item-active {
+  border-bottom: 5px solid #ffffff;
+}

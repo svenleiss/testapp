@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.17">
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/api/StockCustomerService.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/api/StockOrderItemService.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/api/StockOrderService.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/common/entity/CustomerEntity.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/common/repository/CustomerJpaRepository.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/converters/InstantAttributeConverter.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/lifters/CustomerLifter.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/lifters/CustomerMessageLifter.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/lifters/MediaLifter.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/lifters/OrderItemLifter.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/lifters/OrderLifter.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/order_extensions/HTTPTrailblazerClient.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/order_extensions/entity/CustomerMessageEntity.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/order_extensions/entity/MediaEntity.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/order_extensions/entity/OrderEntity.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/order_extensions/entity/OrderItemEntity.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/order_extensions/repository/MediaJpaRepository.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/order_extensions/repository/OrderItemJpaRepository.java">
+</file>
+<file name="/Users/alexandergrosse/Desktop/MHP/InsideApp/persistence/src/main/java/com/mhp/insideApp/persistence/order_extensions/repository/OrderJpaRepository.java">
+</file>
+</checkstyle>
